@@ -73,4 +73,3 @@ print('耗时: %.2f seconds' % (time.time() - t0))
 # model.add(Dense(1000, activation='softmax'))
 # model.load_weights('vgg16_weights.h5')
 # print("建模CNN完成 ...")
-# test dev
