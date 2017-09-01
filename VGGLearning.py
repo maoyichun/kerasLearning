@@ -9,7 +9,7 @@ from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 import numpy as np
 
-t0 = time.time()
+t0 = time.time()    # 记录时间
 model = VGG16(weights='imagenet')   # 224*224
 img_path = 'testpics/car.jpg'
 img = image.load_img(img_path, target_size=(224, 224))  # 224*224
