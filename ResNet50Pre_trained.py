@@ -5,7 +5,7 @@ import numpy as np
 
 model = ResNet50(weights='imagenet')
 
-imp_path = 'testpics/car.jpg'
+imp_path = 'testpics/tidy.jpg'
 img = image.load_img(imp_path, target_size=(224, 224))
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
